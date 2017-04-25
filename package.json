@@ -1,0 +1,34 @@
+{
+  "name": "wror",
+  "version": "1.0.0",
+  "description": "Generate array indices with round-robin distribution, weighted by given scores.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js",
+    "cover": "npm test -- --cov --coverage-report=lcov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schwarzkopfb/wror.git"
+  },
+  "keywords": [
+    "generate",
+    "round",
+    "robin",
+    "round-robin",
+    "distribution",
+    "index",
+    "select",
+    "array",
+    "list"
+  ],
+  "author": "Schwarzkopf Balázs <schwarzkopfb@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schwarzkopfb/wror/issues"
+  },
+  "homepage": "https://github.com/schwarzkopfb/wror#readme",
+  "devDependencies": {
+    "tap": "^10.3.2"
+  }
+}
